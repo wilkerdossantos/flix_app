@@ -14,11 +14,11 @@ class MovieService:
         st.session_state.movies = movies
         return movies
 
-    def create_movie(self, title, genre, realease_date, actors, resume):
+    def create_movie(self, title, genre, release_date, actors, resume):
         movie = dict(
             title=title,
             genre=genre,
-            realease_date=realease_date,
+            release_date=release_date,
             actors=actors,
             resume=resume,
         )

@@ -57,7 +57,7 @@ def show_movies():
         new_movie = movie_service.create_movie(
             title=title,
             genre=genres_names[genre],
-            realease_date=release_date,
+            release_date=release_date,
             actors=[actors_names[actor] for actor in actors_multiselect],
             resume=resume,
         )
