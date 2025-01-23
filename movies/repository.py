@@ -6,7 +6,7 @@ from login.service import logout
 class MovieRepository:
 
     def __init__(self):
-        self.__base_url = 'https://wirisatech.pythonanywhere.com/api/v1/'
+        self.__base_url = 'https://flixapi.umbytedeideias.com.br/api/v1/'
         self.__movie_url = f'{self.__base_url}movies/'
         self.__headers = {
             'Authorization': f'Bearer {st.session_state.token}'
